@@ -39,19 +39,18 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     gap: 15px;
   }
   
   .buttons a {
     text-decoration: none;
-    padding: 12px 24px;
-    background-color: #2196F3;
-    color: white;
+    color: black;
     border-radius: 6px;
     transition: background-color 0.3s ease;
   }
   
   .buttons a:hover {
-    background-color: #0b7dda;
+    color: #0b7dda;
   }
   
